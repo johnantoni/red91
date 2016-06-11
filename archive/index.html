@@ -1,0 +1,35 @@
+---
+layout: default
+title: Archive
+description: "View all posts"
+keywords: "archive, posts, view all posts, archive by date"
+---
+
+<header class="title" id="header" role="banner">
+  {% include logo.html %}
+  <nav>
+    <a class="extra" href="{{ site.baseurl }}/" title="Home" tabindex="1">home</a>
+    <a class="extra active" href="{{ site.baseurl }}/archive/index.html" title="Archive" tabindex="2">archive</a>
+    <a class="extra" href="{{ site.baseurl }}/tags/index.html" title="Tags" tabindex="3">tags</a>
+  </nav>
+</header>
+
+<article role="article">
+<header role="banner">
+  <h1 class="post">Archive</h2>
+</header>
+
+<div class="directory" role="navigation">
+  <ul class="posts" role="directory">
+    {% for post in site.posts %}
+      <li>
+        <span>{{ post.date | date_to_string }} &raquo;</span>
+        <a href="{{ post.url }}" title="Read about {{ post.title }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+</article>
+
+<a href="#header" title="Click to jump to the top of the page" class="jump slide-left" tabindex="7">Back to Top</a>
+

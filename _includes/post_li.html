@@ -1,0 +1,5 @@
+<li class="hentry">
+  <span class="published">{{ post.date | date_to_string }} &raquo;</span>
+  <a class="entry-title" href="{{ post.url }}" title="Read about {{ post.title }}" rel="nofollow">{{ post.title }}</a>
+  <a class="tag" rel="tag" href="/tags.html#{{ post.category }}" title="View posts under {{ post.category }}" rel="nofollow">{{ post.category }}</a>
+</li>

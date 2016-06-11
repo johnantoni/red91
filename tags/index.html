@@ -1,0 +1,41 @@
+---
+layout: default
+title: Tags
+description: "Navigate using the Site Tags"
+keywords: "search by tags, list by category"
+---
+
+<header class="title" id="header" role="banner">
+  {% include logo.html %}
+  <nav>
+    <a class="extra" href="{{ site.baseurl }}/" title="Home" tabindex="1">home</a>
+    <a class="extra" href="{{ site.baseurl }}/archive/index.html" title="Archive" tabindex="2">archive</a>
+    <a class="extra active" href="{{ site.baseurl }}/tags/index.html" title="Tags" tabindex="3">tags</a>
+  </nav>
+</header>
+
+<article role="article">
+<header role="banner">
+  <h1 class="post">Tags</h2>
+</header>
+
+<div class="directory tags" role="navigation">
+{% for category in site.categories %}
+  <h3 id="{{ category | first }}">→ {{ category | first }}</h3>
+  <ul class="posts" role="directory">
+  {% for posts in category %}
+    {% for post in posts %}
+      {% if post.url %}
+        <li>
+          <span>{{ post.date | date_to_string }} &raquo;</span>
+          <a href="{{ post.url }}" title="Read about {{ post.title }}">{{ post.title }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+  </ul>
+{% endfor %}
+</div>
+</article>
+
+<a href="#header" title="Click to jump to the top of the page" class="jump slide-left" tabindex="7">Back to Top</a>

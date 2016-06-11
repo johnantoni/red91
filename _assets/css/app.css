@@ -1,0 +1,674 @@
+/*
+  HTML5 Reset :: style.css
+  ----------------------------------------------------------
+  We have learned much from/been inspired by/taken code where offered from:
+
+  Eric Meyer          :: http://meyerweb.com
+  HTML5 Doctor        :: http://html5doctor.com
+  and the HTML5 Boilerplate :: http://html5boilerplate.com
+
+-------------------------------------------------------------------------------*/
+
+/* Let's default this puppy out
+-------------------------------------------------------------------------------*/
+
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+article, aside, figure, footer, header, nav, section, details, summary {display: block;}
+
+/* consider resetting the default cursor: https://gist.github.com/murtaugh/5247154 */
+
+/* Apply a natural box layout model to all elements: http://paulirish.com/2012/box-sizing-border-box-ftw/ */
+*, *:before, *:after {box-sizing: border-box; }
+
+/* Responsive images and other embedded objects
+   Note: keeping IMG here will cause problems if you're using foreground images as sprites.
+   If this default setting for images is causing issues, you might want to replace it with a .responsive class instead. */
+img,
+object,
+embed {max-width: 100%;}
+
+/* force a vertical scrollbar to prevent a jumpy page */
+html {overflow-y: scroll;}
+
+/* we use a lot of ULs that aren't bulleted.
+  don't forget to restore the bullets within content. */
+ul {list-style: none;}
+
+blockquote, q {quotes: none;}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {content: ''; content: none;}
+
+a {margin: 0; padding: 0; font-size: 100%; vertical-align: baseline; background: transparent;}
+
+del {text-decoration: line-through;}
+
+abbr[title], dfn[title] {border-bottom: 1px dotted #000; cursor: help;}
+
+/* tables still need cellspacing="0" in the markup */
+table {border-collapse: collapse; border-spacing: 0;}
+th {font-weight: bold; vertical-align: bottom;}
+td {font-weight: normal; vertical-align: top;}
+
+hr {display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0;}
+
+input, select {vertical-align: middle;}
+
+pre {
+    white-space: pre; /* CSS2 */
+    white-space: pre-wrap; /* CSS 2.1 */
+    white-space: pre-line; /* CSS 3 (and 2.1 as well, actually) */
+    word-wrap: break-word; /* IE */
+}
+
+input[type="radio"] {vertical-align: text-bottom;}
+input[type="checkbox"] {vertical-align: bottom;}
+.ie7 input[type="checkbox"] {vertical-align: baseline;}
+.ie6 input {vertical-align: text-bottom;}
+
+select, input, textarea {font: 99% sans-serif;}
+
+table {font-size: inherit; font: 100%;}
+
+small {font-size: 85%;}
+
+strong {font-weight: bold;}
+
+td, td img {vertical-align: top;}
+
+/* Make sure sup and sub don't mess with your line-heights http://gist.github.com/413930 */
+sub, sup {font-size: 75%; line-height: 0; position: relative;}
+sup {top: -0.5em;}
+sub {bottom: -0.25em;}
+
+/* standardize any monospaced elements */
+pre, code, kbd, samp {font-family: monospace, sans-serif;}
+
+/* hand cursor on clickable elements */
+.clickable,
+label,
+input[type=button],
+input[type=submit],
+input[type=file],
+button {cursor: pointer;}
+
+/* Webkit browsers add a 2px margin outside the chrome of form elements */
+button, input, select, textarea {margin: 0;}
+
+/* make buttons play nice in IE */
+button,
+input[type=button] {width: auto; overflow: visible;}
+
+/* scale images in IE7 more attractively */
+.ie7 img {-ms-interpolation-mode: bicubic;}
+
+/* prevent BG image flicker upon hover
+   (commented out as usage is rare, and the filter syntax messes with some pre-processors)
+.ie6 html {filter: expression(document.execCommand("BackgroundImageCache", false, true));}
+*/
+
+/* let's clear some floats */
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+;.highlight {
+  background: white;
+}
+.highlight .c {
+  color: #999988;
+  font-style: italic;
+}
+.highlight .err {
+  color: #a61717;
+  background-color: #e3d2d2;
+}
+.highlight .k, .highlight .o {
+  font-weight: bold;
+}
+.highlight .cm {
+  color: #999988;
+  font-style: italic;
+}
+.highlight .cp {
+  color: #999999;
+  font-weight: bold;
+}
+.highlight .c1 {
+  color: #999988;
+  font-style: italic;
+}
+.highlight .cs {
+  color: #999999;
+  font-weight: bold;
+  font-style: italic;
+}
+.highlight .gd {
+  color: black;
+  background-color: #ffdddd;
+}
+.highlight .gd .x {
+  color: black;
+  background-color: #ffaaaa;
+}
+.highlight .ge {
+  font-style: italic;
+}
+.highlight .gr {
+  color: #aa0000;
+}
+.highlight .gh {
+  color: #999999;
+}
+.highlight .gi {
+  color: black;
+  background-color: #ddffdd;
+}
+.highlight .gi .x {
+  color: black;
+  background-color: #aaffaa;
+}
+.highlight .go {
+  color: #888888;
+}
+.highlight .gp {
+  color: #555555;
+}
+.highlight .gs {
+  font-weight: bold;
+}
+.highlight .gu {
+  color: #aaaaaa;
+}
+.highlight .gt {
+  color: #aa0000;
+}
+.highlight .kc, .highlight .kd, .highlight .kp, .highlight .kr {
+  font-weight: bold;
+}
+.highlight .kt {
+  color: #445588;
+  font-weight: bold;
+}
+.highlight .m {
+  color: #009999;
+}
+.highlight .s {
+  color: #dd1144;
+}
+.highlight .na {
+  color: teal;
+}
+.highlight .nb {
+  color: #0086b3;
+}
+.highlight .nc {
+  color: #445588;
+  font-weight: bold;
+}
+.highlight .no {
+  color: teal;
+}
+.highlight .ni {
+  color: purple;
+}
+.highlight .ne, .highlight .nf {
+  color: #990000;
+  font-weight: bold;
+}
+.highlight .nn {
+  color: #555555;
+}
+.highlight .nt {
+  color: navy;
+}
+.highlight .nv {
+  color: teal;
+}
+.highlight .ow {
+  font-weight: bold;
+}
+.highlight .w {
+  color: #bbbbbb;
+}
+.highlight .mf, .highlight .mh, .highlight .mi, .highlight .mo {
+  color: #009999;
+}
+.highlight .sb, .highlight .sc, .highlight .sd, .highlight .s2, .highlight .se, .highlight .sh, .highlight .si, .highlight .sx {
+  color: #dd1144;
+}
+.highlight .sr {
+  color: #009926;
+}
+.highlight .s1 {
+  color: #dd1144;
+}
+.highlight .ss {
+  color: #990073;
+}
+.highlight .bp {
+  color: #999999;
+}
+.highlight .vc, .highlight .vg, .highlight .vi {
+  color: teal;
+}
+.highlight .il {
+  color: #009999;
+}
+;* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  height: 100%; }
+
+body {
+  color: #333333;
+  height: 100%;
+  background-color: white;
+  font: 15px helvetica, "Liberation Sans", sans-serif;
+  text-align: center; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%; }
+
+h1 {
+  margin-bottom: 1em; }
+
+p {
+  margin: 1em 0; }
+
+a {
+  color: #aa0000;
+  text-decoration: none; }
+  a:hover {
+    color: black;
+    border-bottom: 1px solid #aa0000;
+    padding-bottom: 1px;
+    text-decoration: none; }
+
+table {
+  font-size: inherit;
+  font: 100%; }
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0; }
+
+.clearfix {
+  display: inline-block; }
+
+html[xmlns] .clearfix {
+  display: block; }
+
+* html .clearfix {
+  height: 1%; }
+
+ul.posts {
+  list-style-type: none;
+  margin-bottom: 1em; }
+  ul.posts li {
+    border-top: 1px solid #eeeeee;
+    color: #333333;
+    display: block;
+    padding: 8px 4px;
+    text-decoration: none;
+    -webkit-text-size-adjust: none;
+    font-size: 14px; }
+    ul.posts li a, ul.posts li a.tag {
+      color: #333333; }
+      ul.posts li a strong, ul.posts li a.tag strong {
+        color: #aa0000;
+        font-weight: normal; }
+    ul.posts li a.title {
+      text-align: left;
+      text-transform: capitalize; }
+    ul.posts li a:hover {
+      color: black; }
+    ul.posts li .tag {
+      float: right;
+      text-transform: lowercase; }
+    ul.posts li span, ul.posts li em {
+      color: #999999;
+      font-family: "droid-sans-mono-1", monaco, "Courier New", monospace;
+      font-size: 12px; }
+    ul.posts li.first {
+      border: none; }
+  ul.posts li:hover {
+    background: #efefef; }
+    ul.posts li:hover a {
+      color: #aa0000; }
+    ul.posts li:hover span {
+      color: #555555; }
+  ul.posts li.charity a, ul.posts li.charity a:hover {
+    color: #006e2e; }
+  ul.posts li.commercial a {
+    color: #aa0000; }
+  ul.posts a:hover {
+    text-decoration: none; }
+
+.site {
+  font-size: 1.1em;
+  text-align: left;
+  width: 38em;
+  margin: 0 auto;
+  padding: 2em;
+  line-height: 24px; }
+  .site > h1:first-of-type {
+    text-transform: capitalize; }
+
+.title {
+  background: transparent url(/img/eagle-48.png) no-repeat left 5px;
+  padding: 0 0 0 65px;
+  font-weight: normal;
+  color: #aa0000;
+  margin-bottom: 2em; }
+  .title h1 {
+    font-weight: normal;
+    margin-bottom: 7px;
+    border-bottom: 1px solid; }
+    .title h1 span {
+      color: #666666;
+      font-size: 14px;
+      font-style: italic; }
+
+.site .title {
+  position: relative; }
+.site .title a {
+  font-size: 17px;
+  color: #aa0000;
+  text-decoration: none; }
+  .site .title a:hover {
+    color: black; }
+  .site .title a.extra {
+    color: #666666;
+    margin-right: 1em; }
+    .site .title a.extra:hover {
+      color: #aa0000;
+      padding-bottom: 1px;
+      border-bottom: 1px solid black; }
+  .site .title a.active {
+    color: black;
+    padding-bottom: 1px;
+    border-bottom: 1px solid black; }
+.site .author:hover {
+  border: none; }
+.site .entry-title {
+  text-transform: capitalize; }
+.site h1.post {
+  font-size: 1.65em;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+  padding-bottom: 2px;
+  text-shadow: 1px 1px rgba(200, 200, 200, 0.6); }
+  .site h1.post a {
+    color: black;
+    display: block;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 10px; }
+.site .meta {
+  color: #666666;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: normal;
+  float: left;
+  margin-bottom: 1.5em; }
+  .site .meta em {
+    font-style: normal; }
+.site .break {
+  padding-bottom: 20px;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px; }
+.site .footer {
+  font-size: 13px;
+  color: #666666;
+  border-top: 4px solid #eeeeee;
+  margin-top: 1.5em;
+  overflow: hidden;
+  line-height: 2em; }
+  .site .footer a.rss {
+    float: right;
+    background: transparent url(/img/feed-icon-28x28.png) no-repeat 0 0;
+    text-indent: -1999px;
+    height: 28px;
+    width: 28px;
+    margin-top: 0.5em; }
+  .site .footer .contact {
+    float: left;
+    margin-right: 3em; }
+.site em.tag {
+  font-style: normal; }
+.site h1.entry-title {
+  border-bottom: 1px solid #cccccc; }
+
+#post {
+  font-family: Georgia, "Times New Roman", Times, Serif;
+  font-size: 15px;
+  clear: both;
+  margin: 0 30px 20px; }
+  #post pre {
+    border: 1px solid #dddddd;
+    background-color: #eeeeff;
+    padding: 0 0.4em;
+    font-size: 13px; }
+  #post ul, #post ol {
+    margin: 1em 1em 1.2em; }
+    #post ul li, #post ol li {
+      padding: 0.3em 0;
+      list-style: circle outside none; }
+  #post blockquote {
+    text-align: left;
+    margin: 0em 1em;
+    color: #555555;
+    padding: 0.1em 0em;
+    font-style: italic;
+    font-size: 1.05em; }
+    #post blockquote p {
+      margin: 0.5em 0; }
+      #post blockquote p strong {
+        padding-left: 2px; }
+  #post code {
+    font-family: "droid-sans-mono-1", monaco, "Courier New", monospace;
+    border: 1px solid #dddddd;
+    background-color: #eeeeff;
+    padding: 0 0.2em; }
+  #post pre code {
+    border: none;
+    word-wrap: break-word; }
+  #post h2, #post h3, #post h4, #post h5 {
+    padding: 1em 0 0.5em;
+    clear: both; }
+  #post h2, #post h3 {
+    font-size: 1.2em; }
+  #post h3 {
+    text-decoration: italic; }
+  #post p img {
+    max-width: 520px;
+    margin: 0; }
+  #post p em.attrib {
+    color: #999999;
+    float: right;
+    font-size: 0.9em; }
+  #post pre.terminal {
+    border: 1px solid #222222;
+    background-color: #333333;
+    color: white; }
+    #post pre.terminal code {
+      background-color: #333333; }
+
+article aside {
+  -webkit-text-size-adjust: none;
+  border-bottom: 1px solid #eeeeee;
+  border-top: 1px solid #eeeeee;
+  font-size: 14px;
+  display: block;
+  width: 100%;
+  padding: 10px 0; }
+  article aside .prev, article aside .next {
+    text-transform: capitalize; }
+    article aside .prev:hover, article aside .next:hover {
+      color: black; }
+  article aside .next {
+    float: right; }
+
+#related {
+  margin-top: 2em; }
+  #related h2 {
+    margin-bottom: 1em;
+    font-weight: normal;
+    font-size: 15px; }
+    #related h2 a {
+      color: #999999;
+      text-decoration: underline; }
+      #related h2 a:hover {
+        color: black; }
+      #related h2 a.active {
+        color: black;
+        text-decoration: none; }
+  #related ul.all {
+    display: none; }
+
+#about {
+  display: block;
+  position: relative;
+  font-size: 0.87em;
+  -webkit-text-size-adjust: none; }
+  #about h1 {
+    margin-bottom: 5px; }
+  #about ul {
+    list-style-type: none; }
+  #about p, #about .vcard, #about h1.about {
+    width: 190px;
+    position: absolute;
+    line-height: 22px; }
+  #about p {
+    margin: 0;
+    top: 35px;
+    display: inline; }
+  #about .vcard {
+    top: 185px;
+    font-size: 14px; }
+  #about ul.posts, #about h1 {
+    width: 415px;
+    float: right; }
+  #about ul.posts li {
+    padding: 6px 4px;
+    font-size: 13px; }
+    #about ul.posts li strong {
+      text-transform: uppercase; }
+  #about h1 {
+    font-size: 1.1em; }
+  #about h1.about {
+    position: absolute;
+    top: 0px; }
+  #about em {
+    text-decoration: none; }
+  #about img {
+    float: right;
+    display: inline; }
+
+.tags {
+  margin: 10px 0 20px; }
+  .tags h3 {
+    padding: 5px 0px;
+    cursor: pointer;
+    color: #333333;
+    width: auto;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: normal; }
+    .tags h3 span {
+      padding-left: 5px; }
+  .tags h3:hover {
+    background: #efefef; }
+  .tags h3:hover, .tags h3.active {
+    color: #aa0000; }
+  .tags ul {
+    display: none;
+    list-style-type: none;
+    margin-bottom: 1em; }
+
+.github-ribbon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0; }
+
+.network-status {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 0;
+  display: none;
+  padding: 1em; }
+
+article footer {
+  margin-top: 2em; }
+
+footer, article {
+  position: relative; }
+
+footer .twitter-share-button, article .twitter-share-button {
+  position: absolute;
+  right: 0; }
+
+.downloads li {
+  text-transform: capitalize; }
+  .downloads li span {
+    float: right; }
+
+.jump {
+  display: inline-block;
+  font-weight: normal;
+  font-size: 13px;
+  outline: none; }
+  .jump:hover {
+    padding-bottom: 0; }
+
+.slide-left {
+  text-align: left; }
+
+.slide-right {
+  text-align: right; }
+
+#related h2 a.all {
+  display: none; }
+
+.tag_list ul {
+  display: block; }
+
+/* javascript */
+
+.tags ul {
+  display: none
+}
+.jump {
+  margin-bottom: 0px
+}
+
+/* mobile */
+
+@media screen and (min-width: 400px) and (max-width: 700px) {
+  .github-ribbon {
+    display: none
+  }
+
+  ul.posts li, #about p, #about .vcard {
+    font-size: 1em
+  }
+}
+

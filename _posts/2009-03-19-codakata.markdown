@@ -1,0 +1,9 @@
+---
+layout: post
+title: CodeKata
+category: ruby
+---
+
+Today I went off to visit Nature Publishing, they've got a good bunch of people down there.  Was actually quite beneficial as out of talking I found out about Dave Thomas's **CodeKata** blog, where he regularly posts ruby problems to make you essentially a better programmer; guess I'll be burning the midnight oil with this one, fun stuff ;-)
+
+* Dave Thomas - [Code Kata](http://codekata.pragprog.com/)

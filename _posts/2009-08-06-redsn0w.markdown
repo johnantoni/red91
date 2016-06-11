@@ -1,0 +1,26 @@
+---
+layout: post
+title: redsn0w and upgrading your iPhone to 3.0.1
+category: apple
+---
+
+**redsn0w** is a tool you can use to jailbreak your iphone to work with any network provider, you can get it from [here](http://blog.iphone-dev.org/post/126908912/redsn0w-in-june)
+
+It's pretty simple and takes over from **QuickPWN**, use **ultrasn0w** to jailbreak the 3GS version.
+
+Procedures:
+
+* Plug in your iPhone and use iTunes to flash it with the latest firmware (3.0.1)
+* Next close iTunes and fire up Redsn0w
+
+It'll ask you for the location of your IPSW file, drop it into your desktop via Terminal:
+
+    cp ~/Library/iTunes/iPhone Software Updates/* ~/Desktop
+
+...Back in RedSn0w:
+
+* Hit Browse in Redsn0w and point it to the correct IPSW file on your desktop.  For people who hacked 3.0 and just made the upgrade to 3.0.1, select the 3.0 IPSW file instead (assuming you've still got the old IPSW file on your machine).
+* Hit Next and it'll build the patch file
+* Next it'll ask you to go thru the sequence to kick your iPhone into DFW mode, once in it'll upload the package and open up your phone.
+
+Note: If it stalls on **Waiting for Reboot**, simply disconnect and reconnect the USB cable to your iPhone and it should kick off from there fine.

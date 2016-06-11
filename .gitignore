@@ -1,0 +1,4 @@
+.jekyll
+.tmp
+node_modules
+.bundle

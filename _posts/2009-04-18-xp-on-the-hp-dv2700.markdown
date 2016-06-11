@@ -1,0 +1,23 @@
+---
+layout: post
+title: XP on the HP dv2700
+category: windows
+---
+
+I think somehow Hewlett Packard either wanted to make installing Windows XP hard on dv2700 series laptop's or they just wanted to see how good us geeks actually are.
+
+Well, I think we passed.
+
+The Drivers & Specs for the **dv2742se** & **dv2700** series are:
+
+* Chipset: [Intel Chipset INF Utility](http://downloadcenter.intel.com/filter_results.aspx?strTypes=all&ProductID=816&OSFullName=Windows*+XP+Home+Edition&lang=eng&strOSs=45&submit=Go%21)
+* Graphics Card: [GMA965](http://downloadcenter.intel.com/filter_results.aspx?strTypes=all&ProductID=2800&OSFullName=Windows*+XP+Home+Edition&lang=eng&strOSs=45&submit=Go!)
+* Bluetooth: [Broadcom](http://h20000.www2.hp.com/bizsupport/TechSupport/SoftwareDescription.jsp?lang=cs&cc=cz&prodTypeId=321957&prodSeriesId=471753&prodNameId=471756&swEnvOID=2104&swLang=5&taskId=135&swItem=ob-61289-1&mode=3) & [WidComm Driver](http://h20000.www2.hp.com/bizsupport/TechSupport/SoftwareDescription.jsp?lang=en&cc=US&swItem=ir-54214-1)
+* BIOS Update: [Get from the Vista HP Page: F.2E](http://h10025.www1.hp.com/ewfrf/wc/softwareDownloadIndex?softwareitem=ob-67384-1&lc=en&dlc=en&cc=uk&product=3559543&os=2093&lang=en)
+* Mass Storage: [SATA Drivers](http://h10025.www1.hp.com/ewfrf/wc/softwareDownloadIndex?softwareitem=ob-56416-1&lc=en&dlc=en&cc=uk&lang=en&os=228&product=3559543)
+* Ethernet: [Marvell Yukon 88E8039 PCI-E](http://www.marvell.com/drivers/search.do;jsessionid=JNNbJpZfPXNj5pP26hQdT8r2FX29y4HNq5qwlSmf8D3vH1GJfTQL!-1851091154)
+* Wireless: [Intel(R) Wireless WiFi Link 4965AGN](http://h10025.www1.hp.com/ewfrf/wc/softwareList?os=228&lc=en&dlc=en&cc=uk&lang=en&product=3559543)
+
+Slipstreaming XP + SP2 I got working with [nLite](http://www.nliteos.com/) that comes with it's own boot image so you don't need [IsoBuster](http://www.isobuster.com/).  It'll also slipstream the SATA drivers into it, building an ISO file it'll also burn to CD.
+
+The Bluetooth driver's were difficult, every package I could find was corrupt, but I found a post [here](http://forum.notebookreview.com/showthread.php?t=339035) that pointed to a new package [here](http://h20000.www2.hp.com/bizsupport/TechSupport/SoftwareDescription.jsp?lang=cs&cc=cz&prodTypeId=321957&prodSeriesId=471753&prodNameId=471756&swEnvOID=2104&swLang=5&taskId=135&swItem=ob-61289-1&mode=3) in the Czech Republic that worked.

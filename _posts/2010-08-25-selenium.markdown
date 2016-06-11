@@ -1,0 +1,151 @@
+---
+layout: post
+title: Selenium Testing
+category: testing
+---
+
+**Presented by:** _Steve Freeman_, _Nat Pryce_, _David Petersen_, _Dan Long (BSkyB)_
+
+*Findings compiled while employing Selenium Testing on the BSkyB digital broadcasting project*
+
+- - -
+
+> 'To handle rapid change you need excellent communicators'
+
+## What went wrong ?
+
+Over years we noticed several factors going wrong:
+
+* Slow builds.
+* Brittle builds.
+* Complexity.
+* Repeated code.
+
+Through this we eventually hit a breaking point where things were breaking left right and centre, it was a house of cards with everyone to blame.  But rather than pointing the finger, which in itself is unproductive and morale inhibiting we chose to work openly and retrospectively to tackle the problem.
+
+Slowly we pieced it together using QA sessions, breaking problems into categories and identifying code smells and areas that needed refactoring.
+
+Through this we did several things:
+
+* Defined a Testing Manifesto.
+* Collective ownership of the code.
+* Used coloured stickers to mark testing blocks. _didn't work so well as it promotes a fixed point in time which is against the agile way._
+
+## Continuous Improvement
+
+Do it right first time, think of the technical debt implied by hacking an monkey patches.  Be warned as this in itself is difficult to achieve and will only work if you collaborate as a team 110%
+
+> 'Set a good standard for others to follow'
+
+## Test Quality
+
+It's not enough to make the tests pass, you have to improve your output.  If you don't you're in danger of setting a yardstick for others / new joiners to follow.  
+
+## Clarity of Tests
+
+Pitfalls: 
+
+* Over simplicity of fixtures.
+* Look at your tests, 'does it make sense?'.
+* It should be humanly readable and maintainable over time.
+* There should be a consistency of expression across your tests, using the same terms across them and even adapting to a common language which in turn will avoid future rework.
+
+## Business-focused Specification
+
+Write in plain English what your test is supposed to do, not: 'user clicks button', but: 'steve wants to buy a ferrari'.
+
+* Watch out for these bad smells in the language of your tests.
+* An intent should be expressed in the tests, not technical details like 'button clicked'.
+* Also watch out for things like 'given an unused input'.
+
+## Bad Test Smells
+
+* How written.
+* No business spec.
+* Poor html.
+* Acronyms.
+* Spelling.
+* Grammar.
+* Evidence of copy-n-paste.
+* Lazy about assets & setup.
+* Using a standard setup procedure for your tests, when you only need to set minimal parts up to get things going.
+* Messy fixtures.
+* Employing a dozen different ways to do x. _Set one way, create reusable recipes others can employ._
+* Test bloat / creep.
+
+## Bad points
+
+* Feature syndrome.
+* Copy-n-paste, _leading to your tests getting blurry and hard to maintain._
+
+_Crazy edge cases._
+
+* 'this and this……'
+* Creating over complexity just to fulfil the test criteria when regardless of criteria it just has to do Y.
+* If you've got a better way to do it, talk to the whole team about it
+* Too much information in / Too vague test cases
+* Tests that start off ok then do something wildly different to what's expected.
+
+* Not running the CI build before the check-in. _Run CI then check-in, don't set yourself up to fail._
+
+## Key Advice:
+
+> 'Involve everyone from the start'
+
+**Q:** When to change acceptance tests?
+**A:** When adding new functionality.
+
+Avoid comments like _@ignored_ or _@expected to fail_ in your tests.
+When in your '40% time' try refactoring exists problem tests to improve them. 
+There should be no code ownership, your code should also be reviewed by other members (not necessarily the same person each time).
+
+## Things to try
+
+* Placing a search engine on top of your test framework to index your tests and make findablity easier. Cucumber helps in this case as it allows tagging but there are other methods you can employ.
+
+* Standardise your approach to rework so new people will pick the right door first time, even employ training sessions for new starters.
+
+* Use pairing to make sure there's a consistent quality across your tests.
+
+* Break things out into the base common denominator then everyone will get it, even the business owners and establish your ROI.
+
+## Test hierarchy
+
+Try grouping your tests by domain functionality, think of the folder structure and map out what works best for the whole team. Common test libraries placed in the root, etc. use conventions.
+
+...remember there is no magic bullet to this, some things may work, some not, but through all this you will improve.  Also time prompts change no one person will be there forever, people leave new people come in, you cannot get into the trap of relying on one unit your whole team should be familiar with the work and have belief in what they're doing as a collective unit.  This will inspire them to improve and lead change.
+
+## A Roadmap
+
+* Start with a Problem
+* Determine the Business Goal
+* Employ user stories to gain use cases
+* Collaborative specifications
+* Demonstrate with examples of use
+* Exemplars
+* Key examples
+* Active documentation
+* The distil the specification
+* Create acceptance / criteria tests
+* Cucumber
+* Concordion
+* Literal Automation generates an executable specification, through this leads Continuous Validation, then Live documentation then the tests write the documentation, eureka!
+
+## References
+
+_Web_
+
+* [agiletesting.org.uk](http://agiletesting.org.uk)
+* [concordion.org](http://concordion.org) by _David Peterson_
+* [exemplar.com](http://exemplar.com)
+
+_Books_
+
+* **Lean Thinking** by _Womack Jones_
+* **Boundary Objects** by _Brian Marick_
+
+_Tools_
+
+* Cucumber
+* Cuke4Duke
+* DSL

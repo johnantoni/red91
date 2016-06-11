@@ -1,0 +1,14 @@
+---
+layout: null
+---
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc= "http://purl.org/dc/elements/1.1/">
+<rdf:Description rdf:about="http://red91.com/">
+<dc:contributor>John Antoni Griffiths</dc:contributor>
+<dc:date>2010-12-07</dc:date>
+<dc:description>A dictionary of ideas, HTML5/CSS3, Apple, jQuery, Ruby and other useful stuff.</dc:description>
+<dc:language>EN</dc:language>
+<dc:publisher>johnantoni.com</dc:publisher>
+<dc:source>http://red91.com/</dc:source>
+</rdf:Description>
+</rdf:RDF>

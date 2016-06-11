@@ -1,0 +1,14 @@
+---
+layout: post
+title: MCTS Certified
+category: training
+---
+
+<img class="alignright" src="/assets/314012160_0cfb220036_m.jpg" alt="exams" />
+
+After 2 months of solid revision, this morning I managed to pull it off and gain myself another Microsoft Certification!<br /><br />
+<strong>MCTS 70-431 SQL 2005 Implementation & Maintenance</strong>
+<br />
+Now I can terrorize my poor helpless servers with renewed skill and power!!!!<br />
+<br />
+;-)

@@ -1,0 +1,17 @@
+---
+layout: post
+title: FOWA and Geek Dinner
+category: conference
+---
+
+<img class="alignleft" src="/assets/398169590_0f17f3cbdc_m.jpg" alt="" /></a>
+
+Just got back from my very first geekdinner, after attending the fantastic Future Of Web Apps conference.  Great event and excellent people, Khoi Vinh is my new idol ;-)
+
+Got chatting about communities and starfish organisations with Chris & Tara; surely the nicest people you could ever hope to meet.
+
+Amazon launched their new S2 / CM3 storage system, Werner Vogels putting the idea into action; it's a good idea, basically you don't pay for the server's, just the amount of data you store and send.  It's quite isolated at the moment but they plan to expand it for database usage via virtual connectors in the future.  Like the hands-off approach they're taking, 'its your data, we dont want to know what you store', its good as if even you do look a bit you immediately run the risk of breaking the consummers confidence in you and go from supplier to manager (hope the isp's take the same approach).
+
+Good stuff from Adobe with Apollo, and Microsoft's version 'Silverlight'.  Allowing you to take your web apps and drop them onto the desktop, really opening the floodgates for the next generation of Rich Internet Applications (RIA for short).
+
+Photo's at... <a href="http://www.flickr.com/photos/indieflickr/sets/72157594549216434/">view photos</a>

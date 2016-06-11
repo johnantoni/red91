@@ -1,0 +1,52 @@
+---
+layout: post
+title: Using SSH for Remote Access
+category: linux
+---
+
+<img class="alignright" src="http://www.red91.com/assets/357064617_f4e19ae487_m.jpg" alt="key" />
+<div class="img_author">... photo by <a href="http://www.flickr.com/photos/blueskypoint/">blueskypoint &copy;</a></div>
+Today's task is to quickly setup a secure connection to your remote server via SSH (Secure Shell) so we can install stuff and generally get what we want done.  For today's lesson I'll be accessing my other server hosted under TextDrive, but this should work for any other.
+
+<em>NOTE: managed to find a much easier way of doing this, check bottom of article</em>
+
+So class, I want you to fire up your iBooks (and MacBook's, for the more well-off one's), and open a Terminal window.
+
+From here you'll need to create a DSA Public/Private key pair so that the remote server can authorise your connection and let you in.  Work's much like PGP encryption, it having a public token that can only be opened via usage of the aformentioned private key, ahem.
+
+Anyway to create this key pair, type:
+<strong>ssh-keygen -d</strong>
+
+... you will then be asked where you'd like the key pair to be stored, the default (root, where you are now) is fine.  It will then prompt you for a passphrase, you can leave this blank but it's best to type something (and write it down) to elude predators from your precious server. Once done, it'll create two files, one containing the private key, the other (.pub) containing the public key.
+
+Now you'll need to access your server via SFTP to put the necessary files on there so you can later login directly via SSH.  So, as I'm on a mac I'll fire up Transmit (a very good FTP/SFTP tool) and access my TextDrive account.  
+
+Once connected via SFTP (can use FTP, just TextDrive only uses SFTP), navigate to your root and open the '.ssh' directory (this will be hidden in Transmit, to see it select View / Show Invisible Files).  Create a file called 'authorized_keys', and copy and paste the contents of your '.pub' public key-token file in it (should be one long line).  
+
+Save it and disconnect.
+
+You can now access your server via SSH, so switch back to the Terminal window or open a new one.  Make sure your in the dir where those two key-token files were kept and type ...
+
+<strong>ssh -i [keytoken filename without .pub] -o "PasswordAuthentication no" -p 22 [username]@[domain name]</strong>
+
+or 
+
+<strong>ssh -i mypassfile -o "PasswordAuthentication no" -p 22 contact@smith.com</strong>
+
+(the <strong>-p 22</strong> is the port number, if your using standard FTP it'll be 21, SFTP uses 22)
+
+You'll then be prompted for the passphrase you used, type that in and your away!.  Remember to make sure the user account your using has SSH login enabled for it, otherwise it won't work; fail too many times and your service provider may ban your ip address; if that happens explain what you were doing and say sorry, they'll understand.
+
+<h3>... Update</h3>
+
+Note: for people logging in via SSH who have remote access enabled for their login account, do the following...
+
+<strong>SSH [username]@[domain name]</strong>
+
+e.g.
+
+<strong>SSH george@thewhitehouse.com</strong>
+
+...you'll then be prompted for your SSH password, enter it and your ready to rock.  remember to ask for root access if you want to install something scary onto your server (and be nice).
+
+Till next time,

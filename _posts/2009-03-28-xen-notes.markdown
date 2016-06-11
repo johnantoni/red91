@@ -1,0 +1,73 @@
+---
+layout: post
+title: XEN Notes
+category: linux
+---
+
+Building VM's with XEN on my server, example commands below...
+
+##### XEN Commands
+
+    start
+      xm create /etc/xen/xen01.mybox.com.cfg
+
+    start on boot
+      ln -s /etc/xen/xen01.mybox.com.cfg /etc/xen/auto --force
+
+    list running xen machines (dom0 is host)
+      xm list
+
+    list all virtual images created by xen-create-image
+      xen-list-images
+
+    shutdown
+      xm shutdown xen01.mybox.com
+
+    shutdown immediately (as if you pulled the plug out)
+      xm destroy xen01.mybox.com
+
+    login
+      xm console xen01.mybox.com
+
+      to log in on that virtual machine (type CTRL+] if you are at the console,
+      or CTRL+5 if you're using PuTTY to go back to dom0),
+      or use an SSH client to connect to it (192.168.1.2).
+      ctrl+] to get back to host
+
+    show kernel
+      file /bin/ls
+
+    help
+      xm help
+
+##### XEN VM Creation Examples
+
+    xen-create-image --hostname=xen01.mybox.com --size=10Gb --noswap --ip=192.168.1.2 --memory=256Mb --arch=i386 --role=udev
+      (debian lenny, 10gb hdd, no swap, 256mb ram, 32-bit kernel)
+
+    xen-create-image --hostname=xen01.mybox.com --size=10Gb --swap=128Mb --ip=192.168.1.2 --memory=256Mb --arch=amd64 --role=udev
+      (debian lenny, 10gb hdd, 128mb swap, 256mb ram, 64-bit kernel)
+
+    xen-create-image --hostname=xen01.mybox.com --size=10Gb --noswap --ip=192.168.1.2 --memory=256Mb --arch=i386 --dist fedora-core-8 --install-method rinse --role=udev
+      (fedora core 8, 10gb hdd, no swap, 256mb ram, 32-bit kernel)
+
+##### XEN Customizations
+
+Make VM use both processor cores...
+
+    nano /etc/xen/xen01.mybox.com.cfg
+    
+    ...and add this to the config
+    
+    vcpus = '2'
+
+Store vm's in **/home/xen**
+
+    mkdir /home/xen
+    
+    nano /etc/xen-tools/xen-tools.conf
+     
+    ...find dir = ...
+    ...and change to
+    
+    dir = /home/xen

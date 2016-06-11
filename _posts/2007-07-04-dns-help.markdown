@@ -1,0 +1,15 @@
+---
+layout: post
+title: DNS Help
+category: linux
+---
+
+Boy am I beginning to like the guys over at <a href="https://manage.slicehost.com/customers/signup?referrer=40880733">Slicehost.com</a> , really good service.  However unlike most hosting companies you have to setup the DNS records yourself, there's no little helper sitting around to automatically create the zone records or anything.
+
+Thankfully one of the guys there pointed me to a quick little guide to help you setup your A, WWW and NS records...
+
+<a href="http://www.usefuljaja.com/2007/4/setting-up-your-domain">DNS Setup</a>, including reverse DNS
+
+<a href="http://www.dnsstuff.com/">DNS Stuff</a>, dns tools, hosting tests, traceroot, ping & other tests
+
+Excellent!

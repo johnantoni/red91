@@ -1,0 +1,33 @@
+{
+  "name": "red91",
+  "version": "1.0.0",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "none"
+  },
+  "author": "none",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "autoprefixer-stylus": "^0.9.3",
+    "grunt": "^0.4.5",
+    "grunt-cli": "",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-stylus": "^1.2.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-newer": "^1.2.0",
+    "grunt-shell": "~0.6.1",
+    "load-grunt-tasks": "^0.4.0",
+    "time-grunt": "^0.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/red91.git"
+  },
+  "homepage": "http://red91.com",
+  "description": "red91 site"
+}

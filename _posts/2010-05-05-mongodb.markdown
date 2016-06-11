@@ -1,0 +1,30 @@
+---
+layout: post
+title: MongoDB
+category: ruby
+---
+
+![MongoDB](http://upload.wikimedia.org/wikipedia/commons/7/71/PoweredMongoDBbrown66.png)
+
+What timing, as I was about to work on a simple webservice to convert postcodes to co-ordinates and was thinking about storage [Heroku](http://heroku.com) announce Beta support for MongoDB.
+
+Created the app, writing the script to port to postgres table to Mongo's document-based structure then may either use Sinatra or Node.js to provide the webservice.
+
+Q: why build such a service?
+
+A: all UK postcodes are copyrighted by Royal Mail so if you want to translate those to x & y values you either have to pay someone to buy the data or pull it off something like openstreetmap. I opted for the first, and with 76k of records in one table Mongo's the leanest & coolest solution.
+
+
+Thanks Heroku ;-)
+
+#### update
+
+built the webservice, ported the data from postgres to mongohq and it returns valid json!
+
+try it out => [Sinatra GeoCoding Service](http://geodata.heroku.com)
+
+e.g. EC2 => [{ "postalcode":"EC2", "latitude":"51.53701514", "longitude":"-0.0832304" }]
+
+#### Update 2
+
+next up replacing that awesomely huge table with geokit, getting it right second times a charm ;-)

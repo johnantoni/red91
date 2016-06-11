@@ -1,0 +1,39 @@
+# Jekyll configuration precedence:
+# 1. Gruntfile task
+# 2. config.build.yml
+# 3. config.yml
+
+name: red91
+description: "Blog by @johnantoni"
+url: http://red91.com
+keywords: "html, css, javascript, front-end development, ruby-on-rails, software development"
+copyright: "Copyright ~ @johnantoni"
+author:
+  name: John Griffiths
+  email: contact@uxgent.co
+
+# Grunt handles images and assets.
+exclude: ['_assets', '*.md', '*.json', 'CNAME', 
+          'Gemfile', 'Gemfile.lock', 'Gruntfile.js', 
+          'node_modules', 'vendor', '*.yml', 
+          'Procfile', 'Rakefile', 'config.ru']
+
+include: ['.htaccess']
+
+# _config.build.yml sets future and show_drafts to false on `grunt build`
+future: true
+show_drafts: true
+
+# Markdown library
+markdown: kramdown
+#   extensions: ['fenced_code_blocks', 'smart']
+
+highlighter: true
+
+permalink: /:year/:month/:day/:title
+
+safe: true
+lsi: false
+
+source: ""
+baseurl: ""
