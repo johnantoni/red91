@@ -1,19 +1,20 @@
-[![volkswagen status](https://auchenberg.github.io/volkswagen/volkswargen_ci.svg?v=1)](https://github.com/auchenberg/volkswagen)
-
 ### Install
 
     bundle install
     npm install
 
-#### Build pages
+#### Build JavaScript
 
-    grunt build
+    grunt
 
-#### Build & deploy pages
+#### Serve Site Locally
 
-    grunt build
-    grunt buildcontrol:pages
+    bundle exec jekyll serve
+
+#### Build Site for Deploy
+
+    bundle exec jekyll build
 
 #### Copyright
 
-Copyright (c) 2014 John Griffiths. See [LICENSE](LICENSE) for details.
+Copyright (c) 2018 John Griffiths. See [LICENSE](LICENSE) for details.
