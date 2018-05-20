@@ -13,9 +13,9 @@ author:
   email: contact@uxgent.co
 
 # Grunt handles images and assets.
-exclude: ['_assets', '*.md', '*.json', 'CNAME', 
-          'Gemfile', 'Gemfile.lock', 'Gruntfile.js', 
-          'node_modules', 'vendor', '*.yml', 
+exclude: ['_assets', '*.md', '*.json', 'CNAME',
+          'Gemfile', 'Gemfile.lock', 'Gruntfile.js',
+          'node_modules', 'vendor', '*.yml',
           'Procfile', 'Rakefile', 'config.ru']
 
 include: ['.htaccess']
@@ -28,7 +28,7 @@ show_drafts: true
 markdown: kramdown
 #   extensions: ['fenced_code_blocks', 'smart']
 
-highlighter: true
+highlighter: rouge
 
 permalink: /:year/:month/:day/:title
 
