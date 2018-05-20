@@ -1,0 +1,144 @@
+------------------------------------------------------------------------
+
+layout: post\
+title: REST and SOAP\
+category: architecture\
+keywords: "architecture, principles, rest, soap, uri, protocol,
+differences"\
+----
+
+#### REST
+
+REpresentational State Transfer. A collection of network principles that
+define how resources are defined and addressed. Everything is a
+resource.
+
+> An application can interact with a resource by **knowing two things:
+> the identifier of the resource, and the action required**
+
+> Any simple interface that transmits domain-specific data over HTTP
+> without an additional messaging layer such as SOAP or session tracking
+> via HTTP cookies.
+
+> **In Detail:** An important concept in REST is the existence of
+> resources (sources of specific information), each of which can be
+> referred to using a global identifier (a URI). In order to manipulate
+> these resources, components of the network (clients and servers)
+> communicate via a standardized interface (e.g. HTTP) and exchange
+> representations of these resources (the actual documents conveying the
+> information). For example, a resource that is a circle may accept and
+> return a representation that specifies a centre point and radius,
+> formatted in SVG, but may also accept and return a representation that
+> specifies any three distinct points along the curve as a
+> comma-separated list.
+
+Principles:
+
+-   Application state & function divided into resources
+-   Every resource uniquely intentifiable via URI
+-   All resources share a uniform-interface of the transer of state
+    between the client & resource
+
+Protocol that is:
+
+-   Client/Server
+-   Stateless
+-   Cacheable
+-   Layered
+
+Advantages:
+
+-   Improved response times via cacheing
+-   Requires less client-side software to be written
+-   Provides better long-term compatability and scalability
+-   Simpler
+
+Examples:
+
+-   The ATOM publishing protocol (RSS News Feeds)
+-   Ruby on Rails
+-   SQLAjax
+-   The universe of 'web blogs' / blogosphere
+-   Amazon.com
+
+#### SOAP
+
+Service Oriented Architecture Protocol. A protocol for sharing XML-based
+messages across the internet. the foundation of the Web Services stack,
+providing a basic messaging framework that more abstract layers can
+build upon. Services rule!, XML is king!
+
+Principally designed by Microsoft back in 1998 it is now managed by the
+XML Working Group of the W3C
+
+SOAP allows both SMTP or HTTP as valid methods of transport.
+
+Advantages:
+
+-   Allows for easier communication across HTTP, behind proxies &
+    firewalls than RPC
+-   Versatile enough to use other protocols for transport
+
+Disadvantages:
+
+-   Can be slower than most middleware technologies due to the complex
+    nature of it's XML format
+-   Many SOAP implementations limit the amount of data sent
+
+#### HTTP Methods
+
+The most important HTTP methods are POST, GET, PUT and DELETE. These are
+often compared with the CRUD or SQL operations associated with database
+technologies.
+
+HTTP's uniform interface to access to resources consists of URIs,
+methods, status codes, headers, and content distinguished by mime type.
+
+#### For Dummies
+
+REST is simply a method of transfering resources via XML from client to
+host & vice versa. So when a client subscribes to your RSS feed they are
+consuming XML data from the server provided by REST. It asks questions
+via GET and responds to these simply, there is little information
+transferred (like AJAX and the XMLHttpRequest method) and is
+identifiable via firewalls for interrogation.
+
+SOAP is more Service focused (unlike REST which is Resources), in that
+it is providing a service for transferring XML information from server
+to client & vice versa. Each packet of XML data is packaged individually
+and more protected so unavailable for firewall interrogation. So when
+you write a .NET application feeding off data returned from your SQL
+2005 server you are more than likely consuming this data as an XML
+SOAP-based service.
+
+#### REST vs SOAP
+
+There is a lot of hype going around the internet today about which is
+better, should I use REST for sending my XML data back & forth or should
+I use the more service-oriented SOAP architecture?
+
+Really, in most cases it's down to what you feel comfortable with and
+what fits the solution better. If you like Toyota's why by a Ford?
+
+One principle you have to grab here is that RESTful XML transfers are
+lighter on bandwidth as requests and responses are short. SOAP requires
+an XML wrapper around every request and response.
+
+Although, SOAP is more secure as most businesses will not want to see
+parameterised data being sent back & forth via GET requests and
+Parameters.
+
+REST principally uses GET requests (which can always be considered safe
+by the firewall as the change nothing, just ask a question).
+
+SOAP however uses POST to communicate, however it is hard and resource
+intensive to look into a SOAP request to see what it wants whereas a
+REST request is quite simple and more open to investigation.
+
+For authentication and authorisation, SOAP places the burden on the
+developer; whereas REST takes into account most web servers already have
+support for this, either via LDAP or industry standard authentication;
+much easier.
+
+In the end REST isn't for everything but it is simpler to implement and
+in most cases will save you time bringing your goods to market.
