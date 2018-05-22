@@ -6,7 +6,7 @@ category: thoughts
 
 According to Timothy Ferriss's book, "when you spend hours completing menial tasks, it actually costs you money" because you could be spending that time doing something more profitable.
 
-<a href="http://www.amazon.com/gp/product/0307353133?ie=UTF8&tag=johngrif-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0307353133"><img border="0" src="/books/51FSaZaVA3L._SL160_.jpg"></a><img src="http://www.assoc-amazon.com/e/ir?t=johngrif-20&l=as2&o=1&a=0307353133" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<a href="http://www.amazon.com/gp/product/0307353133?ie=UTF8&tag=johngrif-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0307353133"><img border="0" src="/books/51FSaZaVA3L._SL160_.jpg"></a><img src="//www.assoc-amazon.com/e/ir?t=johngrif-20&l=as2&o=1&a=0307353133" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 So I went on the hunt for some personal assistants to handle the simple questions and tasks that crop up in order to concentrate on the big stuff.
 

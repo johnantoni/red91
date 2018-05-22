@@ -5,7 +5,7 @@ category: design
 description: "Notes from his talk at the Victoria & Albert Museum by Michelle Anne Clark"
 ---
 
-<a href="http://www.flickr.com/photos/indieflickr/4968781209/" title="seymourpowell by John Antoni Griffiths, on Flickr"><img src="http://farm5.static.flickr.com/4086/4968781209_ed1b3f5534.jpg" width="100%" alt="seymourpowell" /></a>
+<a href="http://www.flickr.com/photos/indieflickr/4968781209/" title="seymourpowell by John Antoni Griffiths, on Flickr"><img src="//farm5.static.flickr.com/4086/4968781209_ed1b3f5534.jpg" width="100%" alt="seymourpowell" /></a>
 
 > His leading design and innovation company, Seymourpowell, was launched in 1984. He is also consultant global creative director of design to the Unilever brands Dove, Lynx and Vaseline.
 

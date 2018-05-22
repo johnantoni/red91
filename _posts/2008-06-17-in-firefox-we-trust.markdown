@@ -12,4 +12,4 @@ Better standards compliance, security, memory fixes, just tons and tons of new i
 
 Go download it now, Ghandi would be proud ;-)
 
-<a href="http://www.spreadfirefox.com/node&id=183416&t=269"><img border="0" alt="Download Day - English" title="Download Day - English" src="http://www.spreadfirefox.com/files/images/affiliates_banners/468x60_ddayb_en.png"/></a>
+<a href="http://www.spreadfirefox.com/node&id=183416&t=269"><img border="0" alt="Download Day - English" title="Download Day - English" src="//www.spreadfirefox.com/files/images/affiliates_banners/468x60_ddayb_en.png"/></a>

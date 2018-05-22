@@ -18,7 +18,7 @@ Then I thought "why not simply take the drive out of the Time Capsule and place 
 
 Now I've restored from a Time Machine backup on an external drive ok but it seems via Time Capsule it isn't so cut-n-dry, so I began hunting for alternatives, best one I found was a tool called [Carbon Copy Cloner](http://www.bombich.com/).
 
-<a href="http://www.flickr.com/photos/indieflickr/5133960014/" title="ccc by John Antoni Griffiths, on Flickr"><img src="http://farm2.static.flickr.com/1328/5133960014_0849411348.jpg" width="500" height="427" alt="ccc" /></a>
+<a href="http://www.flickr.com/photos/indieflickr/5133960014/" title="ccc by John Antoni Griffiths, on Flickr"><img src="//farm2.static.flickr.com/1328/5133960014_0849411348.jpg" width="500" height="427" alt="ccc" /></a>
 
 What CCC does is allow you to take a complete backup of your drive and clone it to an external drive, you can do a full copy or an incremental over time similar to Time Machine.
 

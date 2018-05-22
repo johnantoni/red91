@@ -4,7 +4,7 @@ title: UX Walkthrough Protocols and Checklists
 category: design
 ---
 
-<a href="http://www.flickr.com/photos/userpathways/3064892251/" title="BASIS - UX Process at Hello by James Kelway, on Flickr"><img src="http://farm4.static.flickr.com/3290/3064892251_7636bf3477.jpg" width="100%" alt="BASIS - UX Process at Hello" /></a>
+<a href="http://www.flickr.com/photos/userpathways/3064892251/" title="BASIS - UX Process at Hello by James Kelway, on Flickr"><img src="//farm4.static.flickr.com/3290/3064892251_7636bf3477.jpg" width="100%" alt="BASIS - UX Process at Hello" /></a>
 
 _by James Kelway_
 

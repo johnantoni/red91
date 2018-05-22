@@ -5,7 +5,7 @@ title: Commands
 
 # Code & Commands Snippets
 
-<img src="http://data.red91.com/red91/assets/2509876146_f1ed489e85.jpg"/>
+<img src="//data.red91.com/red91/assets/2509876146_f1ed489e85.jpg"/>
 
 Here's a collection of useful code and commands i've picked up over the years, use at your own risk.
 

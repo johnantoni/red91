@@ -4,7 +4,7 @@ title: unetbootin + corsair survivor
 category: linux
 ---
 
-<a href="http://www.flickr.com/photos/indieflickr/3463481869/" title="Corsair Survivor by John Griffiths, on Flickr"><img src="http://farm4.static.flickr.com/3602/3463481869_fab2b04f21.jpg" width="500" height="203" alt="Corsair Survivor" /></a>
+<a href="http://www.flickr.com/photos/indieflickr/3463481869/" title="Corsair Survivor by John Griffiths, on Flickr"><img src="//farm4.static.flickr.com/3602/3463481869_fab2b04f21.jpg" width="500" height="203" alt="Corsair Survivor" /></a>
 
 ##### Portable Linux Distro Notes
 

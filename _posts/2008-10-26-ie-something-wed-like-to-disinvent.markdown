@@ -4,7 +4,7 @@ title: ...something we'd like to disinvent
 category: browser
 ---
 
-<a href="http://www.flickr.com/photos/indieflickr/2972723862/" title="The Rock by John Griffiths, on Flickr"><img src="http://farm4.static.flickr.com/3073/2972723862_04a5f22b65.jpg" width="370" height="265" alt="The Rock" /></a>
+<a href="http://www.flickr.com/photos/indieflickr/2972723862/" title="The Rock by John Griffiths, on Flickr"><img src="//farm4.static.flickr.com/3073/2972723862_04a5f22b65.jpg" width="370" height="265" alt="The Rock" /></a>
 
 IE6 is a pain, especially supporting it when you're trying to build something really wonderful with javascript.  However when you're web metrics come back showing over 60% of your users use it you really have to go that extra yard to put a smile on their face, it's tough but it's worth it in the end.
 

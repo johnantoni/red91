@@ -4,7 +4,7 @@ title: Recommended Gems
 category: ruby
 ---
 
-<img class="" src="http://www.red91.com/assets/135751440_2f59574661_m.jpg" alt="Ruby Gems" />
+<img class="" src="//www.red91.com/assets/135751440_2f59574661_m.jpg" alt="Ruby Gems" />
 <div class="img_author">... photo by <a href="http://www.flickr.com/photos/afternoon_sunlight/">afternoon_sunlight &copy;</a></div>
 
 After a while of development with Ruby on Rails, you build up a few notes on what you should always have, or recommended setups.  So to complement all my other notes, here's a little collection of Ruby Gems that I'd recommend you add to your collection, and some command lines to help you.

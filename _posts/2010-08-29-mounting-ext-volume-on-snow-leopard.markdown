@@ -6,7 +6,7 @@ description: "Mounting a Linux partition on osx snow leopard"
 keywords: "linux, ext4, mount, osx, apple, macfuse"
 ---
 
-<a href="http://www.flickr.com/photos/olaf_k/2073524517/" title="Schneeleopard schlafend  ...  sleeping snow leopard by omk1, on Flickr"><img src="http://farm3.static.flickr.com/2052/2073524517_8403bf26c0.jpg" width="100%" alt="Schneeleopard schlafend  ...  sleeping snow leopard" /></a>
+<a href="http://www.flickr.com/photos/olaf_k/2073524517/" title="Schneeleopard schlafend  ...  sleeping snow leopard by omk1, on Flickr"><img src="//farm3.static.flickr.com/2052/2073524517_8403bf26c0.jpg" width="100%" alt="Schneeleopard schlafend  ...  sleeping snow leopard" /></a>
 
 _by olaf k_
 

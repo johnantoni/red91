@@ -4,7 +4,7 @@ title: Django 1.0 Web Development Review
 category: python
 ---
 
-<a href="http://www.packtpub.com/django-1-0-website-development-2nd-edition/mid/151009ysjc1s?utm_source=red91.com&utm_medium=bookrev&utm_content=blog&utm_campaign=mdb_001080" title="Django Web Development" name="Django Web Development"><img src="http://farm3.static.flickr.com/2453/4012814298_d69d611e94.jpg" alt="Django Web Development"/></a>
+<a href="http://www.packtpub.com/django-1-0-website-development-2nd-edition/mid/151009ysjc1s?utm_source=red91.com&utm_medium=bookrev&utm_content=blog&utm_campaign=mdb_001080" title="Django Web Development" name="Django Web Development"><img src="//farm3.static.flickr.com/2453/4012814298_d69d611e94.jpg" alt="Django Web Development"/></a>
 
 ## Django development evolved
 
@@ -44,4 +44,4 @@ All in all, for $39.99 (24 quid), you get an easy to understand roadmap that tea
 
 Great stuff, well recommended
 
-<iframe src="http://rcm.amazon.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=johngrif-20&o=1&p=8&l=as1&m=amazon&f=ifr&md=10FE9736YVPPT7A0FBG2&asins=1847196780" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+<iframe src="//rcm.amazon.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=johngrif-20&o=1&p=8&l=as1&m=amazon&f=ifr&md=10FE9736YVPPT7A0FBG2&asins=1847196780" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>

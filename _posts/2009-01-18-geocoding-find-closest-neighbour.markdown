@@ -4,7 +4,7 @@ title: GeoCoding - Find Closest Neighbour
 category: ruby
 ---
 
-<a href="http://www.flickr.com/photos/indieflickr/3205056544/" title="World Map by John Griffiths, on Flickr"><img src="http://farm4.static.flickr.com/3513/3205056544_3d4247ce14.jpg" width="500" height="245" alt="World Map" /></a>
+<a href="http://www.flickr.com/photos/indieflickr/3205056544/" title="World Map by John Griffiths, on Flickr"><img src="//farm4.static.flickr.com/3513/3205056544_3d4247ce14.jpg" width="500" height="245" alt="World Map" /></a>
 
 Today, after importing the geodata for all the postcodes in the UK I had to be able to determine which postcodes were in the closest vicinity to a fixed point.
 

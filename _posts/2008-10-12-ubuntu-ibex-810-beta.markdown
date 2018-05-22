@@ -4,7 +4,7 @@ title: Ubuntu Ibex 8.10 Beta
 category: linux
 ---
 
-<a href="http://www.flickr.com/photos/indieflickr/2933235767/" title="Ubuntu Ibex 8.10 by John Griffiths, on Flickr"><img src="http://farm4.static.flickr.com/3154/2933235767_894964412e.jpg" width="500" height="313" alt="Ubuntu Ibex 8.10" /></a>
+<a href="http://www.flickr.com/photos/indieflickr/2933235767/" title="Ubuntu Ibex 8.10 by John Griffiths, on Flickr"><img src="//farm4.static.flickr.com/3154/2933235767_894964412e.jpg" width="500" height="313" alt="Ubuntu Ibex 8.10" /></a>
 
 Last night I upgraded my laptop's o/s to the new Ibex 8.10 release, not yet official still in beta but so far very stable.
 

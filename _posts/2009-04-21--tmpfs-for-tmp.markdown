@@ -27,4 +27,4 @@ Or more comprehensively
     tmpfs /tmp tmpfs defaults,noatime,mode=1777 0 0
     tmpfs /var/tmp tmpfs defaults,noatime,mode=1777 0 0
 
-<object width="560" height="340"><param name="movie" value="http://www.youtube.com/v/LcoPxyxpE9A&hl=en&fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/LcoPxyxpE9A&hl=en&fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="560" height="340"></embed></object>
+<object width="560" height="340"><param name="movie" value="http://www.youtube.com/v/LcoPxyxpE9A&hl=en&fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="//www.youtube.com/v/LcoPxyxpE9A&hl=en&fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="560" height="340"></embed></object>

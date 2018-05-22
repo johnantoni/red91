@@ -4,7 +4,7 @@ title: Using SSH for Remote Access
 category: linux
 ---
 
-<img class="alignright" src="http://www.red91.com/assets/357064617_f4e19ae487_m.jpg" alt="key" />
+<img class="alignright" src="//www.red91.com/assets/357064617_f4e19ae487_m.jpg" alt="key" />
 <div class="img_author">... photo by <a href="http://www.flickr.com/photos/blueskypoint/">blueskypoint &copy;</a></div>
 Today's task is to quickly setup a secure connection to your remote server via SSH (Secure Shell) so we can install stuff and generally get what we want done.  For today's lesson I'll be accessing my other server hosted under TextDrive, but this should work for any other.
 

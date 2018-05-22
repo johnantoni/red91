@@ -5,7 +5,7 @@ title: Beginning Version Control\
 category: subversion\
 ----
 
-<img class="alignright" src="http://www.red91.com/assets/198613702_3c70d7fb8d_m.jpg" alt="subversion" />
+<img class="alignright" src="//www.red91.com/assets/198613702_3c70d7fb8d_m.jpg" alt="subversion" />
 
 <div class="img_author">
 ... photo by <a href="http://www.flickr.com/photos/jetienne/">jetienne

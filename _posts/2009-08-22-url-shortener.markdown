@@ -4,7 +4,7 @@ title: URL Shortener
 category: ruby
 ---
 
-<a href="http://www.flickr.com/photos/indieflickr/3862376779/" title="6 by John Griffiths, on Flickr"><img src="http://farm3.static.flickr.com/2488/3862376779_25e3178c0a.jpg" width="500" height="390" alt="6" /></a>
+<a href="http://www.flickr.com/photos/indieflickr/3862376779/" title="6 by John Griffiths, on Flickr"><img src="//farm3.static.flickr.com/2488/3862376779_25e3178c0a.jpg" width="500" height="390" alt="6" /></a>
 
 Seems everyone's doing something of the kind, so via Sinatra and some vendored gems [here's](http://assetboy.com) a nice URL shortening tool.
 

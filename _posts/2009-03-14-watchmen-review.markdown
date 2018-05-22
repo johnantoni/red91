@@ -4,7 +4,7 @@ title: Watchmen Review
 category: film
 ---
 
-<a href="http://www.flickr.com/photos/indieflickr/3353377549/" title="Watchmen by John Griffiths, on Flickr"><img src="http://farm4.static.flickr.com/3590/3353377549_6b33649fb0.jpg" width="500" height="403" alt="Watchmen" /></a>
+<a href="http://www.flickr.com/photos/indieflickr/3353377549/" title="Watchmen by John Griffiths, on Flickr"><img src="//farm4.static.flickr.com/3590/3353377549_6b33649fb0.jpg" width="500" height="403" alt="Watchmen" /></a>
 
 --------- Spoiler Warning ---------
 
@@ -24,8 +24,8 @@ I also loved the choice of songs, Bob Dylan's 'Times are a Changing' was a perfe
 
 I'm off to see it with my old boss next week, can't wait.  It was exactly what I hoped for in a film.  Gritty, dark and artistic.  5 out of 5 easily.
 
-<iframe width="480" height="360" FRAMEBORDER="0" MARGINWIDTH="0" MARGINHEIGHT="0" src="http://www.zideo.nl/zideomediaplayer.php?zideo=6c59615a6f513d3d&playzideo=6d344b596f6c343d"></iframe>
+<iframe width="480" height="360" FRAMEBORDER="0" MARGINWIDTH="0" MARGINHEIGHT="0" src="//www.zideo.nl/zideomediaplayer.php?zideo=6c59615a6f513d3d&playzideo=6d344b596f6c343d"></iframe>
 
 Courtesy of [yU+Co](http://www.yuco.com/)
 
-<object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/c49_k7UUcFk&hl=en&fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/c49_k7UUcFk&hl=en&fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="344"></embed></object>
+<object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/c49_k7UUcFk&hl=en&fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="//www.youtube.com/v/c49_k7UUcFk&hl=en&fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="344"></embed></object>

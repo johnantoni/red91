@@ -4,7 +4,7 @@ title: Nikon FM2 - Rewind / Reload / Settings
 category: photography
 ---
 
-<a href="http://www.flickr.com/photos/indieflickr/3862425643/" title="3 by John Griffiths, on Flickr"><img src="http://farm3.static.flickr.com/2499/3862425643_659b64f249.jpg" width="500" height="309" alt="3" /></a>
+<a href="http://www.flickr.com/photos/indieflickr/3862425643/" title="3 by John Griffiths, on Flickr"><img src="//farm3.static.flickr.com/2499/3862425643_659b64f249.jpg" width="500" height="309" alt="3" /></a>
 
 #### Rewind
 

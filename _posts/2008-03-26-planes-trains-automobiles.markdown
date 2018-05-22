@@ -48,8 +48,8 @@ All the best and happy flying,
 
 ...and now here's that episode I talked about, classic!
 
-<object width="425" height="355"><param name="movie" value="http://www.youtube.com/v/Y0F97LHk4ZA&hl=en"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/Y0F97LHk4ZA&hl=en" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"></embed></object>
+<object width="425" height="355"><param name="movie" value="http://www.youtube.com/v/Y0F97LHk4ZA&hl=en"></param><param name="wmode" value="transparent"></param><embed src="//www.youtube.com/v/Y0F97LHk4ZA&hl=en" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"></embed></object>
 
-<object width="425" height="355"><param name="movie" value="http://www.youtube.com/v/OFE-yMMWCvc&hl=en"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/OFE-yMMWCvc&hl=en" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"></embed></object>
+<object width="425" height="355"><param name="movie" value="http://www.youtube.com/v/OFE-yMMWCvc&hl=en"></param><param name="wmode" value="transparent"></param><embed src="//www.youtube.com/v/OFE-yMMWCvc&hl=en" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"></embed></object>
 
-<object width="425" height="355"><param name="movie" value="http://www.youtube.com/v/IYTOzbRBphw&hl=en"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/IYTOzbRBphw&hl=en" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"></embed></object>
+<object width="425" height="355"><param name="movie" value="http://www.youtube.com/v/IYTOzbRBphw&hl=en"></param><param name="wmode" value="transparent"></param><embed src="//www.youtube.com/v/IYTOzbRBphw&hl=en" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"></embed></object>

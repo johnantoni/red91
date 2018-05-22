@@ -4,7 +4,7 @@ title: Writing with Sinatra...
 category: ruby
 ---
 
-<a href="http://www.flickr.com/photos/indieflickr/3254406444/" title="Gran Torino by John Griffiths, on Flickr"><img src="http://farm4.static.flickr.com/3380/3254406444_6b838cf1f5.jpg" width="500" height="334" alt="Gran Torino" /></a>
+<a href="http://www.flickr.com/photos/indieflickr/3254406444/" title="Gran Torino by John Griffiths, on Flickr"><img src="//farm4.static.flickr.com/3380/3254406444_6b838cf1f5.jpg" width="500" height="334" alt="Gran Torino" /></a>
 
 My fiancee really wants a portfolio site to show off her freehand work.  After watching [Peepcode's](https://peepcode.com/products/haml-and-sass) tutorial on HAML & SASS markup I'm going to have a go at using Sinatra to put one together for her.
 
